@@ -4,6 +4,14 @@ import java.util.Date;
 
 abstract class Automotor {
 
+    /**
+     * Instancia um novo veículo automotor
+     * @param dataDeFabricacao Data de fabricação do veículo automotor
+     * @param modelo Modelo do veículo automotor
+     * @param marca Marca do veículo automotor
+     * @param preco Valor praticado pelo mercado em vendas deste veículo automotor
+     * @param placa Placa identificadora única do veículo automotor
+     */
     Automotor(Date dataDeFabricacao, String modelo, String marca, double preco, String placa){
         this.dataDeFabricacao = dataDeFabricacao;
         this.modelo = modelo;
